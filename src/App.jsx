@@ -1,8 +1,15 @@
+import Navbar from "./components/layout/Navbar"
+import Hero from "./components/sections/Hero"
 
 
 function App() {
   return (
-    <div className="text-7xl text-red-700 h-[1400PX]">App</div>
+    <div className="min-h-screen bg-black">
+      <Navbar />
+      <main>
+        <Hero />
+      </main>
+    </div>
   )
 }
 

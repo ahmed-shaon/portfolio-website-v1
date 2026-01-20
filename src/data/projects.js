@@ -1,0 +1,52 @@
+export const projects = [
+    {
+        id:1, 
+        title: "Project One",
+        description: "This is the first project.",
+        image:"/images/project1.png",
+        category:"Full Stack",
+        technologies: ["React", "Node.js", "MongoDB"],
+        metrics: '40% increase in user engagement',
+        githubUrl: "demolink",
+        demoUrl: "demolink"
+
+    },
+    {
+        id:2, 
+        title: "Project Two",
+        description: "This is the second project.",
+        image:"/images/project2.png",
+        category:"Frontend",
+        technologies: ["React", "Tailwind CSS"],
+        metrics: '30% increase in user engagement',
+        githubUrl: "demolink",
+        demoUrl: "demolink"
+    },
+    {
+        id:3, 
+        title: "Project Three",
+        description: "This is the third project.",
+        image:"/images/project3.png",
+        category:"Backend",
+        technologies: ["Node.js", "Express", "MongoDB"],
+        metrics: '40% increase in user engagement',
+        githubUrl: "demolink",
+        demoUrl: "demolink"
+
+    },
+    {
+        id:4, 
+        title: "Project Four",
+        description: "This is the fourth project.",
+        image:"/images/project4.png",
+        category:"Web Apps, UI Components, ",
+        technologies: ["React", "Node.js", "MongoDB"],
+        metrics: '40% increase in user engagement',
+        githubUrl: "demolink",
+        demoUrl: "demolink"
+
+    }
+
+]
+
+export const categories = ["All","Full Stack", "Web Apps", "UI Components", "Frontend", "Backend"]
