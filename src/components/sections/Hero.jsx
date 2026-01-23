@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="text-left">
             <FadeIn delay={0} >
               <div className="inline-flex items-center gap-2.5 px-[18px] py-[11px] mb-8 bg-linear-to-r from-primary/10 via-primary/15 to-primary/20 border border-primary/20 rounded-full">
-                <Star ClassName="w-4 h-4 text-white fill-white" />
+                <Star className="w-4 h-4 text-white fill-white" />
                 <span className="text-sm md:text-sm text-white tracking-[1.2px]">
                   {PERSONAL_INFO.title} | Based in {PERSONAL_INFO.location}
                 </span>
