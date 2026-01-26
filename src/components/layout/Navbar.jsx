@@ -56,7 +56,7 @@ const Navbar = () => {
                     : "text-white/70 hover:text-white"
                   }`}
                 >
-                  {link.lable}
+                  {link.label}
                 </button>
               ))
             }
@@ -99,7 +99,7 @@ const Navbar = () => {
                   : 'text-white/70 hover:text-white hover:bg-white/5'
                 }`}
               >
-                {link.lable}
+                {link.label}
               </button>
             ))
           }
