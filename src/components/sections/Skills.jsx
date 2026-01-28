@@ -11,20 +11,31 @@ const Skills = () => {
         'Frontend Development': [
             skills.find(s => s.name === 'React.js'),
             skills.find(s => s.name === 'JavaScript'),
-            skills.find(s=>s.name === 'TypeScript'),
-            skills.find(s=>s.name === 'Next.js'),
-            skills.find(s=> s.name === 'Tailwind CSS'),
-            skills.find(s=> s.name === 'Redux'),
+            skills.find(s => s.name === 'TypeScript'),
+            skills.find(s => s.name === 'Next.js'),
+            skills.find(s => s.name === 'Tailwind CSS'),
+            skills.find(s => s.name === 'Redux'),
+            skills.find(s => s.name === 'HTML5'),
         ].filter(Boolean),
         'Backend & APIs': [
             skills.find(s => s.name === 'Node.js'),
+            skills.find(s => s.name === 'Express.js'),
+            skills.find(s => s.name === 'MongoDB'),
+            skills.find(s => s.name === 'SQL'),
+            skills.find(s => s.name === 'PostgreSQL'),
             skills.find(s => s.name === 'REST APIS'),
+            skills.find(s => s.name === 'GraphQL'),
+            skills.find(s => s.name === 'Firebase'),
         ].filter(Boolean),
         'Tools & Others': [
             skills.find(s => s.name === 'Git & GitHub'),
             skills.find(s => s.name === 'Responsive Design'),
-            skills.find(s => s.name === 'Figma'),
+            skills.find(s => s.name === 'Docker'),
+            skills.find(s => s.name === 'Asana'),
             skills.find(s => s.name === 'Vite'),
+            skills.find(s => s.name === 'Agile Methodologies'),
+            skills.find(s => s.name === 'CI/CD'),
+            skills.find(s => s.name === 'Postman'),
         ].filter(Boolean)
     }
 

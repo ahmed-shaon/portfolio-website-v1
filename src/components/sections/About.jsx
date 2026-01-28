@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { Download, Code2, Sparkles, Sparkle } from 'lucide-react';
 import { 
+    SiJavascript,
     SiReact, 
-    SiNextdotjs, 
-    SiTypescript, 
     SiTailwindcss, 
-    SiNodedotjs, 
-    SiMongodb 
+    SiPostgresql,
+    SiExpress,
+    SiNodedotjs   
 } from 'react-icons/si';
 import { PERSONAL_INFO } from '../../utils/constant';
 import FadeIn from '../animations/FadeIn';
@@ -14,12 +14,12 @@ import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
 
 
 const skills = [
-    { name: "React.js", icon: SiReact, color: "#61DAFB"},
-    { name: "Next.js", icon: SiNextdotjs, color: "#000000"},
-    { name: "TypeScript", icon: SiTypescript, color: "#3178C6"},
+    { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E"},
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4"},
+    { name: "PostgreSQL", icon: SiPostgresql, color: "#336791"},
+    { name: "Express.js", icon: SiExpress, color: "#000000"},
+    { name: "React.js", icon: SiReact, color: "#61DAFB"},
     { name: "Node.js", icon: SiNodedotjs, color: "#339933"},
-    { name: "MongoDB", icon: SiMongodb, color: "#47A248"},
     
 ]
 
@@ -185,7 +185,7 @@ const About = () => {
                         {
                             skills.map((skill, index) => (
                                 <div key={index} className='group relative bg-white/5 hover:bg-white/10 border border-white/10 hover:border-primary/50 rounded-2xl p-6 flex flex-col items-center justify-center gap-3 transition-all duration-300'>
-                                    <skill.icon className='text-3xl text-primary' />
+                                    <skill.icon className='text-3xl' style={{color:`${skill.color}`}} />
                                     <div className='text-sm text-white/80 font-medium text-center'>
                                         {skill.name}
                                     </div>

@@ -40,9 +40,7 @@ const Projects = () => {
 
   const nextSlide = () => {
     const maxIndex = Math.max(0, filteredProjects.length - 3);
-    console.log(maxIndex, "max index");
     const newIndex = Math.min(currentIndex +1, maxIndex);
-    console.log(newIndex, "new index");
     scrollToIndex(newIndex)
   }
 
