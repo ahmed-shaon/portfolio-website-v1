@@ -25,17 +25,6 @@ export const projects = [
     },
     {
         id:3, 
-        title: "Weather App",
-        description: "A simple and elegant weather application that displays real-time weather information for any city in the world.",
-        image:"/projects/project-3.png",
-        category:"Web Apps",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        metrics: '',
-        githubUrl: "https://github.com/ahmed-shaon/weather-app",
-        demoUrl: "https://ahmed-shaon.github.io/weather-app/"
-    },
-    {
-        id:4, 
         title: "Tasty kitchen",
         description: "Tasty Kitchen is a full-stack food ordering web app that lets users browse menus, view dishes, and place orders through a responsive interface.",
         image:"/projects/project-4.png",
@@ -47,7 +36,7 @@ export const projects = [
 
     },
     {
-        id:5, 
+        id:4, 
         title: "Mobile Garage",
         description: "Mobile Garage is a full-stack marketplace platform that allows users to buy and sell second-hand smartphones with secure listings, product details, and a smooth user experience.",
         image:"/projects/project1.png",
@@ -59,17 +48,16 @@ export const projects = [
 
     },
     {
-        id:6, 
-        title: "Teach Me",
-        description: "This is the sixth project.",
-        image:"/projects/project1.png",
-        category:"Web Apps, UI Components, ",
-        technologies: ["React", "Node.js", "MongoDB"],
+        id:5, 
+        title: "Weather App",
+        description: "A simple and elegant weather application that displays real-time weather information for any city in the world.",
+        image:"/projects/project-3.png",
+        category:"Web Apps",
+        technologies: ["HTML", "CSS", "JavaScript"],
         metrics: '',
-        githubUrl: "demolink",
-        demoUrl: "demolink"
-
-    }
+        githubUrl: "https://github.com/ahmed-shaon/weather-app",
+        demoUrl: "https://ahmed-shaon.github.io/weather-app/"
+    },
 
 ]
 
