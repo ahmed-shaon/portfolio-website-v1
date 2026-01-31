@@ -39,7 +39,7 @@ export const projects = [
         id:4, 
         title: "Mobile Garage",
         description: "Mobile Garage is a full-stack marketplace platform that allows users to buy and sell second-hand smartphones with secure listings, product details, and a smooth user experience.",
-        image:"/projects/project1.png",
+        image:"/projects/project-5.png",
         category:"Full Stack",
         technologies: ["React", "Tawilwind CSS", "Daisy UI", "Firebase", "RESTful API", "Äxios", "Express.js", "MongoDB"],
         metrics: '',
