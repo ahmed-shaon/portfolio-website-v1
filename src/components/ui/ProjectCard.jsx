@@ -11,7 +11,7 @@ const ProjectCard = ({project}) => {
           className="w-full h-full object-cover transition-transform duratoin-700 group-hover:scale-110"
         />
 
-        <div className="absolute inset-0 bg-linear-to-r from-black via-black/60 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300" />
+        <div className="absolute inset-0 bg-linear-to-l from-black via-black/60 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300" />
 
         <div className="absolute bottom-4 right-4 flex items-center gap-3">
           {

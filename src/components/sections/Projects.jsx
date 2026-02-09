@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { projects, categories } from "../../data/projects";
-import { Briefcase, Sparkles, Target, Globe, Palette, Zap, ChevronLeft, ChevronRight } from "lucide-react";
+import { Briefcase, Sparkles, Target, Globe, Zap, ChevronLeft, ChevronRight, Server } from "lucide-react";
 import ProjectCard from "../ui/ProjectCard";
 import FadeIn from "../animations/FadeIn";
 
@@ -52,9 +52,9 @@ const Projects = () => {
   //Category icons mapping
   const categoryIcons = {
     'All': Target,
+    'Full Stack': Zap,
+    "Backend": Server,
     'Web Apps': Globe,
-    'UI Components': Palette,
-    'Full Stack': Zap
   }
 
 
@@ -125,7 +125,7 @@ const Projects = () => {
             >
               <div className="flex gap-6 pb-4">
                 {
-                  filteredProjects.map((project, idnex) => {
+                  filteredProjects.map((project) => {
                     return (
                       <div
                       key={project.id}

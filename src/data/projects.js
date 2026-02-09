@@ -10,7 +10,7 @@ export const projects = [
         githubUrl: "",
         demoUrl: "https://apps.shopify.com/giftify-2"
 
-    },    
+    },  
     {
         id:2, 
         title: "Personal Website",
@@ -21,6 +21,18 @@ export const projects = [
         metrics: '',
         githubUrl: "https://github.com/ahmed-shaon/portfolio-website-v1",
         demoUrl: "demolink"
+
+    },
+    {
+        id:6, 
+        title: "HR Management Backend",
+        description: "Node.js/Express/TypeScript API for HR management: authentication, employee CRUD, attendance tracking, and monthly attendance reports.",
+        image:"/projects/project-6.png",
+        category:"Backend",
+        technologies: ["TypeScript", "Express.js","PostgreSQL", "Knex Query Builder", "JWT", "Multer", "Express Validator"],
+        metrics: '',
+        githubUrl: "https://github.com/ahmed-shaon/hr-management-backend",
+        demoUrl: ""
 
     },
     {
@@ -58,7 +70,18 @@ export const projects = [
         githubUrl: "https://github.com/ahmed-shaon/weather-app",
         demoUrl: "https://ahmed-shaon.github.io/weather-app/"
     },
+    {
+        id:7, 
+        title: "Notes App",
+        description: "A simple and elegant web-based notes application built with vanilla JavaScript, HTML, and CSS. Create, edit.",
+        image:"/projects/project-7.png",
+        category:"Web Apps",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        metrics: '',
+        githubUrl: "https://github.com/ahmed-shaon/notes-app",
+        demoUrl: "https://ahmed-shaon.github.io/notes-app/"
+    },
 
 ]
 
-export const categories = ["All","Full Stack", "Web Apps", "UI Components"]
+export const categories = ["All","Full Stack","Backend", "Web Apps"]
